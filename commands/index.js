@@ -1,3 +1,5 @@
+const getMessage = require("./get-message");
+
 module.exports = {
   Ping: require("./ping"),
   ArgsInfo: require("./args-info"),
@@ -6,5 +8,6 @@ module.exports = {
   Add: require("./add"),
   Greetings: require("./greetings"),
   Guess: require("./guess"),
-  Quote: require("./quote")
+  Quote: require("./quote"),
+  getMessage: require("./get-message")
 };
